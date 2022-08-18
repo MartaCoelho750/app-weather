@@ -1,0 +1,148 @@
+body {
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  padding: 20px 20px 20px 20px;
+  align-items: center;
+}
+
+form {
+  height: 50px;
+  padding-top: 20px;
+  align-items: center;
+}
+
+#submit {
+  padding: 1px;
+  margin-left: 2px;
+  background-color: rgb(229, 246, 252);
+  color: darkblue;
+  border: darkgray;
+}
+
+#current_date {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: medium;
+}
+
+button {
+  border: darkgray;
+  background-color: rgb(233, 246, 250);
+}
+
+
+.glasseffect {
+  height: 600px;
+  width: 560px;
+  padding-left: 30px;
+  margin-left: 20px;
+  margin-top: 100px;
+  background-color: #e7f6f2;
+  border-radius: 15px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 0.1) rgba(255, 255, 255, 0));
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 3.37);
+  border: 1px, solid rgba(255, 255, 255, 0.18);
+  border-radius: 32px;
+}
+
+.temperature {
+  font-size: xx-large;
+}
+
+.columns {
+  height: 60px;
+  width: 470px;
+  background-color: #d0f5f2;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.futureone {
+  height: 80px;
+  width: 100px;
+  background-color: #d0f5f2;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.futuretwo {
+  height: 80px;
+  width: 100px;
+  background-color: #d0f5f2;
+  ;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.futurethree {
+  height: 80px;
+  width: 100px;
+  background-color: #d0f5f2;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.futurefour {
+  height: 80px;
+  width: 100px;
+  background-color: #d0f5f2;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.futurefive {
+  height: 80px;
+  width: 100px;
+  background-color: #d0f5f2;
+  border-radius: 20px;
+  align-items: center;
+}
+
+#celsius {
+  text-decoration: none;
+}
+
+#fahrenheit {
+  text-decoration: none;
+}
+
+
+#celsius:hover {
+  cursor: default;
+}
+
+#fahrenheit:hover {
+  cursor: default;
+}
+
+#celsius.active {
+  color: rgb(33, 33, 33);
+}
+
+#fahrenheit.active {
+  color: rgb(33, 33, 33);
+  ;
+}
+
+#icon {
+  content: icon;
+  position: relative;
+  size: 10px;
+}
+
+.description {
+  font-size: small;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.description::first-letter {
+  text-transform: capitalize;
+}
