@@ -27,6 +27,11 @@ form {
   font-size: medium;
 }
 
+#date {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: medium;
+}
+
 button {
   border: darkgray;
   background-color: rgb(233, 246, 250);
@@ -34,7 +39,7 @@ button {
 
 
 .glasseffect {
-  height: 600px;
+  height: 620px;
   width: 560px;
   padding-left: 30px;
   margin-left: 20px;
