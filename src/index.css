@@ -68,42 +68,11 @@ button {
   background-color: #d0f5f2;
   border-radius: 15px;
   align-items: center;
+  text-align: center;
+  align-content: center;
 }
 
 .futureone {
-  height: 80px;
-  width: 100px;
-  background-color: #d0f5f2;
-  border-radius: 20px;
-  align-items: center;
-}
-
-.futuretwo {
-  height: 80px;
-  width: 100px;
-  background-color: #d0f5f2;
-  ;
-  border-radius: 20px;
-  align-items: center;
-}
-
-.futurethree {
-  height: 80px;
-  width: 100px;
-  background-color: #d0f5f2;
-  border-radius: 20px;
-  align-items: center;
-}
-
-.futurefour {
-  height: 80px;
-  width: 100px;
-  background-color: #d0f5f2;
-  border-radius: 20px;
-  align-items: center;
-}
-
-.futurefive {
   height: 80px;
   width: 100px;
   background-color: #d0f5f2;
@@ -150,4 +119,8 @@ button {
 
 .description::first-letter {
   text-transform: capitalize;
+}
+
+#min {
+  color: lightslategray;
 }
