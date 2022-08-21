@@ -22,6 +22,23 @@ function formatDate(timestamp) {
   return `${day} ${hours}:${minutes}`;
 }
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+  let forecastHTML = `<div class="row">`;
+  let days = ["Sun", "Mon", "Tue", "Wed"];
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `<div class="col-3">
+              <div class="col">${day}<br> <span id="max">14º</span>/<span id="min">10º</span></div>
+              <img id="icon" src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="clear" width="25">
+            </div>`;
+  });
+
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
+
 function displayTemperature(response) {
   let temperatureElement = document.querySelector(".temperature");
   let cityElement = document.querySelector("#city");
@@ -87,3 +104,4 @@ let celsius = document.querySelector("#celsius");
 celsius.addEventListener("click", displayCelsiusTemperature);
 
 search("Porto");
+displayForecast();

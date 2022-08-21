@@ -74,10 +74,13 @@ button {
 
 .futureone {
   height: 80px;
-  width: 100px;
+  width: 500px;
   background-color: #d0f5f2;
   border-radius: 20px;
-  align-items: center;
+  display: flex;
+  justify-content: center;
+
+
 }
 
 #celsius {
